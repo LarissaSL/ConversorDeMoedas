@@ -36,13 +36,19 @@ public class Historico {
     }
 
     public void exibirHistorico() {
-        try (BufferedReader reader = new BufferedReader(new FileReader("historico.txt"))) {
-            String linha;
-            while ((linha = reader.readLine()) != null) {
-                System.out.println(linha);
+        File arquivo = new File("historico.txt");
+
+        if (arquivo.exists() && arquivo.length() > 0) {
+            try (BufferedReader reader = new BufferedReader(new FileReader(arquivo))) {
+                String linha;
+                while ((linha = reader.readLine()) != null) {
+                    System.out.println(linha);
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
             }
-        } catch (IOException e) {
-            e.printStackTrace();
+        } else {
+            System.out.println("Não existe arquivo historico.txt ou não há nenhuma conversão a ser mostrada.");
         }
     }
 }
