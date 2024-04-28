@@ -1,0 +1,15 @@
+Conversão de: BRL para USD
+Valor a ser convertido: R$ 1000,00
+Resultado da Conversão: $ 193,90
+Data e Hora da Conversão: 28/04/2024 17:18:40
+
+Conversão de: USD para JPY
+Valor a ser convertido: $ 100,00
+Resultado da Conversão: ¥ 15733,40
+Data e Hora da Conversão: 28/04/2024 17:18:51
+
+Conversão de: USD para BRL
+Valor a ser convertido: $ 50,00
+Resultado da Conversão: R$ 257,85
+Data e Hora da Conversão: 28/04/2024 17:23:46
+
